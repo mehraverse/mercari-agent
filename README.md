@@ -9,7 +9,7 @@
 
 ### Example
 
-![Example CLI interaction](working-example.png)
+![Example CLI interaction](examples/working-example.png)
 
 ### Setup Instructions
 
