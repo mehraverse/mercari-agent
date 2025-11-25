@@ -7,6 +7,10 @@
 - For each user query, an “analyst” LLM turn generates 3–4 structured Mercari search candidates and invokes the `get_recommendations` tool.
 - A recommendation backend (`mercari_agent.recommender`) runs those candidates via `mercapi` in parallel, pools and deduplicates the results, enriches top hits with full item details, and ranks them by relevance, price fit, seller quality, and shipping before handing the best items to the “presentation” LLM.
 
+### Example
+
+![Example CLI interaction](working-example.png)
+
 ### Setup Instructions
 
 1. **Prerequisites**
